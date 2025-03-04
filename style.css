@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.produto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+.produto img {
+    width: 100%;
+}
+.comprar {
+    display: block;
+    background: green;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 5px;
+}
